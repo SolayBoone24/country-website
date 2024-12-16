@@ -1,0 +1,71 @@
+
+
+.Flex {
+	display:flex ; 
+}
+
+nav{
+   background-color:#8f00FF;
+   padding: 20px
+}
+
+
+nav a{
+  text-decoration: none;
+  font-family: Eygpt Project;
+  font-weight: bold;
+  font-size: 30px;
+  color: pink;
+  flex:1;
+
+
+  text-decoration:none;
+}
+nav a:hover}
+  background-color: green;
+  color: lime;
+  text-align: center;
+  box-shawdow: 10px;
+  transition: 1s;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.hp_bk_image{
+  background-image: ur1(home_page_pics/iceland_bk_mp.jpg);
+  color:white;
+  padding:10px;
+}
+nav a:hover{
+  background-color:pink;
+  color:mint green ;
+}
+#banner{
+  padding:5px;
+  text-align:center;
+  background-color: lightgreen;
+}
+#links{  
+  flex-direction:column;
+  max-width:200px;   /* Use max-width (instead of width) for flex item */
+  background-color: lightgreen;
+}
+#links a{
+  font-size:8pt;
+  color:black;
+  padding:5px 10px 5px 10px;  
+  box-shadow:2px 2px 2px gray;
+}
+#links a:hover{
+  background-color:rgb(200,200,200);
+}
+.center{
+  justify-content:center;
+  align-items:center; 
+  text-align:center;
+}
+#footer{
+  background-color:green;
+  color:white;
+  font-size:8pt;
+}
